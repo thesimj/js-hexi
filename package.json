@@ -1,0 +1,35 @@
+{
+  "name": "js-hexi",
+  "version": "0.0.1",
+  "description": "Pure Javasript base encode decoder",
+  "main": "index.js",
+  "directories": {
+    "test": "test",
+    "src": "src",
+    "lib": "lib"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "babel-preset-babili": "^0.0.10",
+    "babel-preset-env": "^1.1.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babili": "^0.0.10",
+    "cross-env": "^3.1.4",
+    "eslint": "^3.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "cross-env BABEL_ENV=production babel src -d lib",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thesimj/js-hexi.git"
+  },
+  "author": "Mykola Bubelich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thesimj/js-hexi/issues"
+  },
+  "homepage": "https://github.com/thesimj/js-hexi#readme"
+}

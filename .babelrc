@@ -1,0 +1,13 @@
+{
+  "presets": [
+    "es2015"
+  ],
+  "env": {
+    "production": {
+      "presets": [
+        "es2015",
+        "babili"
+      ]
+    }
+  }
+}
