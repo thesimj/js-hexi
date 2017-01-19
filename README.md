@@ -1,5 +1,5 @@
 # Javascript BaseX converter
-Pure Javascript ES2015 base encode decoder
+Pure Javascript base encode decoder
 
 [![Build Status](https://travis-ci.org/thesimj/js-hexi.svg?branch=master)](https://github.com/thesimj/js-hexi)
 
