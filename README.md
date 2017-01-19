@@ -13,7 +13,7 @@ Encode "Hello world" to Base64
 import JSHexi from "js-hexi";
 ....
 const unibytes = JSHexi.toBytes("Hello world (｡◕‿◕｡)");
-const bytes = JSHexi.toBytes("Hello world", true);
+const bytes = JSHexi.toBytes("Hello world", false);
 // now bytes contains Uint8Array with bytes
 
 JSHexi.toBase64(unibytes);
