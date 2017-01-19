@@ -2,7 +2,7 @@
   "name": "js-hexi",
   "version": "0.1.0",
   "description": "Pure Javasript base encode decoder",
-  "main": "lib/jshexi.js",
+  "main": "lib/jshexi.min.js",
   "directories": {
     "test": "test",
     "src": "src",

@@ -10,7 +10,7 @@ Javascript Base64, Base16, text to bytes array converter.
 ### Encoding
 Encode "Hello world" to Base64 
 ```javascript
-import JSHexi from "jshexi";
+import JSHexi from "js-hexi";
 ....
 const unibytes = JSHexi.toBytes("Hello world (｡◕‿◕｡)");
 const bytes = JSHexi.toBytes("Hello world", true);
@@ -25,7 +25,7 @@ JSHexi.toBase64(bytes);
 ### Decoding
 Encode "AEgAZQBsAGwAbwAgAHcAbwByAGwAZAAgACj/YSXVID8l1f9hACk=" / "SGVsbG8gd29ybGQ=" to String 
 ```javascript
-import JSHexi from "jshexi";
+import JSHexi from "js-hexi";
 ....
 const bytes = JSHexi.fromBase64("AEgAZQBsAGwAbwAgAHcAbwByAGwAZAAgACj/YSXVID8l1f9hACk=");
 const unibytes = JSHexi.fromBase64("SGVsbG8gd29ybGQ=", false);
