@@ -21,8 +21,8 @@
     "tape-watch": "^2.2.4"
   },
   "scripts": {
-    "prod": "cross-env BABEL_ENV=production babel src -d lib",
-    "build": "babel src -d lib",
+    "prod": "npm run build && cross-env BABEL_ENV=production babel ./src/jshexi.js --out-file ./lib/jshexi.min.js",
+    "build": "babel ./src/jshexi.js --out-file ./lib/jshexi.js --source-maps inline",
     "test": "tape -r babel-register test/**/*.test.js | tap-spec",
     "watch": "tape-watch test/**/*.test.js -r babel-register -p tap-spec"
   },
