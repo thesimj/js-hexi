@@ -1,5 +1,6 @@
 # Javascript BaseX converter
 Pure Javascript ES2015 base encode decoder
+
 [![Build Status](https://travis-ci.org/thesimj/js-hexi.svg?branch=master)](https://github.com/thesimj/js-hexi)
 
 Javascript Base64, Base16, text to bytes array converter.
