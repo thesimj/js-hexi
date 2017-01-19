@@ -1,2 +1,4 @@
-# js-hexi
-Pure Javasript base encode decoder
+# Javascript BaseX converter
+Pure Javascript ES2015 base encode decoder
+
+Usage
