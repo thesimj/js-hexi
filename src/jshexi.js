@@ -323,6 +323,4 @@ var JSHexi = (function () {
 })()
 
 // Export //
-// if (typeof module !== 'undefined' && module.exports) {
 module.exports = JSHexi
-// }
