@@ -26,7 +26,7 @@
   },
   "scripts": {
     "prod": "browserify -s ./src/jshexi.js -o ./src/jshexi.min.js",
-    "test": " npm run lint && tape -r babel-register test/**/*.test.js | tap-spec",
+    "test": "tape -r babel-register test/**/*.test.js | tap-spec",
     "watch": "tape-watch test/**/*.test.js -r babel-register -p tap-spec",
     "lint": "standard ./src/jshexi.js"
   },
