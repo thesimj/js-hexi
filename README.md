@@ -1,7 +1,7 @@
 # JavaScript BaseX converter
 Pure JavaScript base encode decoder
 
-[![Build Status](https://travis-ci.org/thesimj/js-hexi.svg?branch=master)](https://github.com/thesimj/js-hexi)
+[![Build Status](https://travis-ci.org/thesimj/js-hexi.svg?branch=master)](https://travis-ci.org/thesimj/js-hexi)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
 [![browser support](https://ci.testling.com/thesimj/js-hexi.png)
 ](https://ci.testling.com/thesimj/js-hexi)

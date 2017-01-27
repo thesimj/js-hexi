@@ -5,8 +5,7 @@
   "main": "src/jshexi.js",
   "directories": {
     "test": "test",
-    "src": "src",
-    "lib": "lib"
+    "src": "src"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
@@ -26,9 +25,7 @@
     "uglify-js": "^2.7.5"
   },
   "scripts": {
-    "t": "browserify -s ./src/jshexi.js -o ./src/jshexi.min.js",
-    "prod": "npm run build && cross-env BABEL_ENV=production babel ./src/jshexi.js --out-file ./lib/jshexi.min.js",
-    "build": "babel ./src/jshexi.js --out-file ./lib/jshexi.js --source-maps inline",
+    "build": "browserify -s ./src/jshexi.js -o ./src/jshexi.min.js",
     "test": " npm run lint && tape -r babel-register test/**/*.test.js | tap-spec",
     "watch": "tape-watch test/**/*.test.js -r babel-register -p tap-spec",
     "lint": "standard ./src/jshexi.js"
