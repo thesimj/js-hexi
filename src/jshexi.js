@@ -238,7 +238,9 @@ var JSHexi = (function () {
      * @param {Boolean} unicode
      * @return {Uint8Array}
      */
-    toBytes: function (data, unicode = true) {
+    toBytes: function (data, unicode) {
+      unicode = typeof unicode === 'undefined' ? true : unicode
+
       this._checkForUnicode(data, unicode)
 
       var buffer = new Uint8Array(unicode ? data.length << 1 : data.length)
@@ -264,7 +266,9 @@ var JSHexi = (function () {
      * @param {Uint8Array} data
      * @param {Boolean} unicode
      */
-    fromBytes: function (data, unicode = true) {
+    fromBytes: function (data, unicode) {
+      unicode = typeof unicode === 'undefined' ? true : unicode
+
       this._checkForUint8Array(data)
 
       var udata = (unicode) ? new Uint16Array(data.length / 2) : data
@@ -287,7 +291,7 @@ var JSHexi = (function () {
      * @param {Boolean} unicode
      * @private
      */
-    _checkForUnicode: function (data, unicode = true) {
+    _checkForUnicode: function (data, unicode) {
       if (!unicode && this.isUnicodeString(data)) {
         throw new Error('Unicode char in data!')
       }
