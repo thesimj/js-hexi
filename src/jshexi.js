@@ -1,3 +1,4 @@
+'use strict'
 /*
  * Copyright (c) 2017, Bubelich Mykola
  * https://www.bubelich.com
@@ -279,7 +280,10 @@ var JSHexi = (function () {
         }
       }
 
-      return String.fromCodePoint(...udata)
+      return udata.reduce(function (carry, charCode) {
+        return carry + String.fromCharCode(charCode)
+      }, ''
+      )
     },
 
     /**
