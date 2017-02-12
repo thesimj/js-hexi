@@ -2,10 +2,9 @@
 Pure JavaScript base encode decoder
 
 [![Build Status](https://travis-ci.org/thesimj/js-hexi.svg?branch=master)](https://travis-ci.org/thesimj/js-hexi)
-[![npm version](https://badge.fury.io/js/js-hexi.svg)](https://badge.fury.io/js/js-hexi)
+[![NPM Version](https://img.shields.io/npm/v/js-hexi.svg?style=flat-square)](https://www.npmjs.com/package/js-hexi)
+[![npm downloads](https://img.shields.io/npm/dm/js-hexi.svg?style=flat-square)](https://www.npmjs.org/package/js-hexi)
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](http://standardjs.com/)
-[![browser support](https://ci.testling.com/thesimj/js-hexi.png)
-](https://ci.testling.com/thesimj/js-hexi)
 
 Javascript Base64, Base16, text to bytes array converter.
 
