@@ -6,11 +6,9 @@ os:
 language: node_js
 
 node_js:
-  - "4"
   - "5"
   - "6"
   - "7"
   - "node"
-  - "iojs"
 
 script: "npm run test"
